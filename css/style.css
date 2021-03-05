@@ -167,3 +167,17 @@ h1 {
   padding: 20px;
   margin-top: 20px;
 }
+
+.column-container {
+    display: table; /* Make the container element behave like a table */
+	background: #34495E;
+    color: #fff;
+    border-radius: .4em;
+    overflow: hidden;
+}
+
+.column {
+  display: table-cell; /* Make elements inside the container behave like table cells */
+  float: left;
+  padding: 20px;
+}
